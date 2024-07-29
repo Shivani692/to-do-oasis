@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST WEB APP</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+<body>
+    <div class="heading">
+        <h1>TO-DO LIST WEB APP</h1>
+    </div>
+    <div class="table">
+        <form class="register">
+            <input type="text" placeholder="Title" id="name" required>
+            <input type="text" placeholder="Descripition" id="amount" required>
+            <button onclick="validation(event)" id="add">Save</button>
+        </form>
+    </div>
+    <fieldset>
+        <table id="table-data">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Descripition</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+    </fieldset>
+    <script src="expense.js"></script>
+</body>
+</html>
